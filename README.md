@@ -8,7 +8,7 @@ This project implements a complete Wordle game using 5-letter astronomy terms. P
 ⬜ GRAY: Letter is not in the word
 
 The system tracks player statistics, provides AI-generated hints, and offers educational content about each astronomy term after the game concludes.
-Features
+## Features
 
 Multiple Difficulty Levels: Choose from Easy, Medium, Hard, or Mixed difficulty
 AI-Powered Hints: Get contextual hints using Claude AI (requires API key)
@@ -18,8 +18,8 @@ Visual Statistics: Beautiful matplotlib visualizations of your gameplay stats
 Persistent Storage: Game statistics are saved and loaded automatically
 
 
-Game Structure
-Classes
+## Game Structure
+### Classes
 
 1. WordBank: Manages the collection of astronomy words organized by difficulty
 
@@ -43,7 +43,7 @@ Manages statistics and visualization
 
 
 
-How to Play
+## How to Play
 
 Run the Jupyter notebook or Python script
 Enter your Anthropic API key when prompted (optional - game works without it)
@@ -53,7 +53,7 @@ Type 'hint' for an AI-generated clue
 Type 'quit' to exit
 View your statistics after each game
 
-Statistics
+## Statistics
 The game tracks:
 
 Games played and won
@@ -68,7 +68,7 @@ Bar chart showing guess distribution
 Summary panel with key statistics
 Saved as wordle_statistics.png
 
-API Integration
+## API Integration
 The game uses Claude AI (Anthropic) for:
 
 Hints: Context-aware clues that don't give away the answer
@@ -76,11 +76,13 @@ Educational Content: Detailed explanations of astronomy terms
 
 Note: The game is fully playable without an API key, but hints and educational content will be limited.
 
-Author
+
+
+### Author
 Evan Stiverson
 
 GitHub: Evan-Stiverson
 Repository: Astro_Data_Project_1
 
-License
+### License
 This project is open source and available for educational purposes.
